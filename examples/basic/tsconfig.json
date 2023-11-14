@@ -1,0 +1,11 @@
+{
+  "extends": "@rnwy/tsconfig/rnwy.json",
+  "compilerOptions": {
+    "rootDir": ".",
+    "typeRoots": ["./node_modules/@types", "./types/global.d.ts"],
+    "paths": {
+      "app/*": ["./app/*"],
+      "config/*": ["./config/*"]
+    }
+  }
+}

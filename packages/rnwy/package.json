@@ -1,0 +1,18 @@
+{
+  "name": "@rnwy/rnwy",
+  "version": "0.0.1",
+  "description": "A Rails-inspired framework for building web applications with Node.js",
+  "private": true,
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "fastify": "^4.24.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "pino-pretty": "^10.2.3",
+    "typescript": "^5.2.2"
+  }
+}

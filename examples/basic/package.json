@@ -1,0 +1,29 @@
+{
+  "name": "basic-ts-api",
+  "version": "0.0.1",
+  "description": "A basic API built with Rnwy",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon --watch 'app/**/*.ts' --exec 'ts-node' -r tsconfig-paths/register config/boot.ts",
+    "clean": "rimraf build",
+    "build": "npm run clean && tsc",
+    "start": "NODE_ENV=production TS_NODE_BASEURL=./build node -r tsconfig-paths/register build/config/application.js",
+    "lint-ts": "tsc --noEmit",
+    "lint-prettier": "prettier --check .",
+    "lint": "npm run lint-ts && npm run lint-prettier",
+    "prettier-fix": "prettier --write .",
+    "lint-fix": "npm run prettier-fix"
+  },
+  "devDependencies": {
+    "@rnwy/tsconfig": "workspace:^",
+    "@types/node": "^20.9.0",
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.3",
+    "rimraf": "^5.0.5",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@rnwy/rnwy": "workspace:^",
+    "tsconfig-paths": "^4.2.0"
+  }
+}

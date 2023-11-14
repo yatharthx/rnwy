@@ -1,0 +1,7 @@
+build/
+node_modules/
+
+public/
+tmp/
+
+pnpm-lock.yaml
