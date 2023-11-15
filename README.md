@@ -1,14 +1,22 @@
 # rnwy
 
-> Pronounced "runway", **rnwy** is a Rails-inspired framework for building web apps and services in JavaScript.
+> Pronounced "runway," **rnwy** is a super simple, lightweight Node.js framework for building web applications. It draws inspiration from Ruby on Rails.
 
 ## What's rnwy?
 
-**rnwy** is a framework for building web apps and services in JavaScript. It is inspired by Ruby on Rails, and borrows many of its conventions, features, and project structure. **rnwy** is built on top of [Fastify](https://www.fastify.io/), a high-performance web framework for Node.js.
+**rnwy** is intentionally designed as a _toy framework_ and exhibits minimalistic approach with its limited features. Built to serve specific needs and dev experience, it emulates the conventions, features and project directory structure with some variations (obviously). **rnwy** uses [Fastify](https://www.fastify.io/), a high-performance web framework for Node.js, as the server.
 
-## State of the Project
+## Why?
 
-**rnwy** is currently in the early stages of development. I am building it because I didn't want to lose the productivity and joy of working with Rails when I am writing apps in JavaScript. I am using it to build a few personal projects, and I will continue to add features and fix bugs as I encounter them.
+I am building this project to retain the joy I experience when building web applications with Ruby on Rails. Since, at times, the need arises to write backend and services in Node.js, I want to have a similar experience doing so.
+
+## What's included?
+
+- [ ] Routing
+- [ ] Controllers
+- [ ] Job Queues (to run things later)
+
+The features above are the ones I need to build the services I am working on. I will add more features as I need them.
 
 ## License
 
